@@ -1,25 +1,5 @@
-# beer.yml — Recipe Repository Schema
-#
-# Place this file at the root of any repository that has the "recipe" topic.
-# The sync-beers workflow will discover this file automatically and include
-# the beer(s) in the All Saints Fermentery website inventory.
-#
-# Required fields: name, style, abv, description, status
-# status must be one of: Available | Seasonal | Coming Soon
-#
-# Use a YAML list (recommended, supports multiple beers per repo):
-
-- name: Example Pale Ale
-  style: American Pale Ale
-  abv: 5.0
-  description: A crisp, hoppy pale ale brewed for the feast of a beloved saint.
-  status: Available
-
-# A single-beer mapping (without the leading "- ") is also accepted and will
-# be normalized to a list automatically by the sync workflow:
-#
-# name: Example Pale Ale
-# style: American Pale Ale
-# abv: 5.0
-# description: A crisp, hoppy pale ale brewed for the feast of a beloved saint.
-# status: Available
+- name: Michaelmas
+  style: Munich Dunkel
+  abv: 5.5
+  description: A traditional malty brown lager from Bavaria. Deeply toasted, bready malt flavors without any roasty or burnt flavors. Smooth and rich, with a restrained bitterness and a relatively dry finish that allows for drinking in quantity.
+  status: Coming Soon
